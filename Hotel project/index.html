@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/mdb.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Navbar in Bootstrap4</title>
+</head>
+    
+    <style>
+       
+        img{
+            height: 100%;
+            width: 100%;
+        }
+        .sub1{
+            height: 50px;
+            width: 50px;
+            background-color: aliceblue;
+        }
+        .sub3{
+            text-align: center;
+            background-color:black;
+            color: aliceblue;
+            padding:  25px 25px;
+        
+        }
+        
+        .sub4{
+            text-align: center;
+            background-color:blueviolet;
+            color: aliceblue;
+            padding: 15px 15px;
+        }
+        .sub5{
+            text-align: center;
+            background-color: black;
+            color: white;
+            padding: 15px 15px;
+        }
+        
+        .sub5 img{
+            
+            height: 30px;
+            width: 30px;
+        }
+    </style>
+<body>
+    
+    <div class="container-fluid">
+        
+
+    <nav class="navbar navbar-dark navbar-expand-xl bg-dark">
+        <div class="container">
+            <a href="#" class="navbar-brand"><img  class="sub1" src="assets/img/Capture.PNG"></a>
+            <a  href="#" class="navbar-brand" data-toggle="dropdown" class="dropdown-toggle">Our Hotels
+            <span class="caret"></span>
+            </a>
+            
+            <ul class="dropdown-menu">
+                          <li><a href="#">Agra</a></li>
+                          <li><a href="#">Ahmedabad</a></li>
+                          <li><a href="#">Amristar</a></li>
+                          <li><a href="#">Baddi</a></li>
+                          <li><a href="#">Goa</a></li>
+            </ul>
+            
+            <a  href="#" class="navbar-brand">Special Offers</a>
+            <a  href="#" class="navbar-brand">About US</a>
+            <a  href="#" class="navbar-brand">Flight+Hotel</a>
+            <a  href="#" class="navbar-brand">Wedings</a>
+            <a  href="#" class="navbar-brand" data-toggle="dropdown" class="dropdown-toggle">More
+                        <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+                          <li><a href="#">Events</a></li>
+                          <li><a href="#">Institutional Hospitality</a></li>
+                          <li><a href="#">Partner With Us</a></li>
+                          <li><a href="#">Partner Contact Us Us</a></li>
+                          <li><a href="#">Blogs</a></li>
+            </ul>
+                    
+            
+            <button class="navbar-toggler" data-toggle="collapse"
+                    data-target="#dropdownNavBar">
+                <span class="icon">BOOK MY STAY</span>
+            </button>
+        </div>
+       
+    </nav>
+        
+        
+    
+    
+    <nav class="navbar navbar-dark navbar-expand-sm bg-primary">
+        <div class="container">
+            <a  href="#" class="navbar-brand">
+                Radisson Hyderabad-HITEC </a>
+            <div class="collapse navbar-collapse" id="simpleNavBar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a  href="#" class="nav-link">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Promotions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#" class="nav-link">Dining</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#" class="nav-link">Banquets/Conferences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#" class="nav-link">Facilities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a  href="#" class="nav-link" data-toggle="dropdown" class="dropdown-toggle">More
+                        <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Gallery</a></li>
+                          <li><a href="#">Explore Hyderabad</a></li>
+                          <li><a href="#">Pay us</a></li>
+                        </ul>
+                    </li>
+                 
+                </ul>
+            </div>
+        </div>
+    </nav>
+        </div>
+    
+    <div class="container-fluid">
+   
+    <img src="assets/img/img1.PNG">
+    </div>
+    
+    <div class="container-fluid">
+        <div class="sub3">
+            <div class="row">
+                
+                <div class="col-sm-6">
+                  <label>Destination</label>
+                  <input class="form-control" placeholder="Hyderabad" type="text" >
+                </div>
+                
+                <div class="col-sm-6">
+                  <label>Hotel/Resort</label>
+                  <input class="form-control" placeholder="Radission Hyderabad-HITEC" type="text">
+                </div>
+                </div>
+               <button type="submit" class="btn-btn-primary">Book Now</button>
+                
+        </div>    
+        </div>
+    
+    <div class="container-fluid">
+        <div class="col-sm">
+            <div class="sub4">
+            <h3>Sarovar Hotels</h3>
+            <p>75 Diverse Hotels. 1 Unique Experience</p>
+            </div>
+       </div>
+    </div>
+    
+    <div class="container-fluid">
+        <div class="col-sm">
+            <div class="sub5">
+                <p>Radission Hyderabad-HITEC</p>
+                <p>Gachibowli, Hyderabad, Telangana-500032 </p>
+                <p><img src="assets/img/envelope.png"> asph@sarovarhotels.com 
+                   <img src="assets/img/envelope.png"> gmasph@sarovarhotels.com</p>
+                   <img src="assets/img/phone-call.png"> +91 40 6769 6769 | Tel
+                   <img src="assets/img/phone-call.png"> +91 40 6769 6768 | Fax
+            </div>
+       </div>
+    </div>
+    
+    
+   
+        
+   
+    
+</body>
+</html>
+
+<script src="assets/js/fontawesome-all.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/mdb.min.js"></script>
